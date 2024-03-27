@@ -50,12 +50,12 @@ Both TensorRT-LLM and vLLM can be used to run optimized inference with DBRX. We 
 
 ### TensorRT-LLM
 
-DBRX support has also been added to TensorRT-LLM library: [Pending PR]
+DBRX support has also been added to TensorRT-LLM library: [Pending PR](https://github.com/NVIDIA/TensorRT-LLM/pull/1363)
 
 After merging, instructions to build and run DBRX TensorRT engines will be found at: [README](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/dbrx/README.md)
 
 ### vLLM
-DBRX support has been added to vLLM: [Pending PR]
+DBRX support has been added to vLLM: [Pending PR](https://github.com/vllm-project/vllm/pull/3660)
 
 After merging, instructions to run vLLM engine will be found at: [Docs](https://docs.vllm.ai/en/latest/)
 
