@@ -35,7 +35,7 @@ We recommend having at least 320GB of memory to run the model.
 Then, run:
 
 ```
-pip install -e requirements.txt # Or requirements-gpu.txt to use flash attention on GPU(s)
+pip install -r requirements.txt # Or requirements-gpu.txt to use flash attention on GPU(s)
 huggingface-cli login           # Add your Hugging Face token in order to access the model
 python generate.py              # See generate.py to change the prompt and other settings
 ```
