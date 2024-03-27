@@ -1,0 +1,176 @@
+Databricks Open Model License
+
+By using, reproducing, modifying, distributing, performing or displaying
+any portion or element of DBRX or DBRX Derivatives, or otherwise accepting
+the terms of this Agreement, you agree to be bound by this Agreement.
+
+Version Release Date: March 27, 2024
+
+
+Section 1: Definitions
+
+“Agreement” means these terms and conditions that govern the use, reproduction,
+modification, distribution, performance or display of DBRX and/or DBRX
+Derivatives and any terms and conditions incorporated by reference.
+
+“Databricks” or “we” means Databricks, Inc.
+
+“Licensee” or “you” means you, or your employer or any other person or entity
+(if you are entering into this Agreement on such person or entity’s behalf),
+of the age required under applicable laws, rules or regulations to provide
+legal consent and that has legal authority to bind your employer or such other
+person or entity if you are entering in this Agreement on their behalf.
+
+“DBRX Derivatives” means all (i) modifications to DBRX, (ii) works based on
+DBRX and (iii) any other derivative works thereof. Outputs are not deemed DBRX
+Derivatives.
+
+“DBRX” means the foundational large language models and software and
+algorithms, including machine-learning model code, trained model weights,
+inference-enabling code, training-enabling code, fine-tuning enabling code,
+documentation and other elements of the foregoing identified by Databricks at
+https://github.com/databricks/dbrx, regardless of the source that you obtained
+it from.
+
+“Output” means the results of operating DBRX or DBRX Derivatives.
+
+As used in this Agreement, “including” means “including without limitation.”
+
+
+Section 2: License Rights and Conditions on Use and Distribution
+
+2.1 Grant of Rights
+
+You are granted a non-exclusive, worldwide, non-transferable and royalty-free
+limited license under Databricks’ intellectual property or other rights owned
+by Databricks embodied in DBRX to use, reproduce, distribute, copy, modify,
+and create derivative works of DBRX in accordance with the terms of this
+Agreement.
+
+2.2 Reproduction and Distribution
+
+	1. All distributions of DBRX or DBRX Derivatives must be accompanied by a
+    "Notice" text file that contains the following notice: "DBRX is provided
+    under and subject to the Databricks Open Model License, Copyright ©
+    Databricks, Inc. All rights reserved."
+
+	2. If you distribute or make DBRX or DBRX Derivatives available to a third
+    party, you must provide a copy of this Agreement to such third party.
+
+	3. You must cause any modified files that you distribute to carry prominent
+    notices stating that you modified the files.
+
+You may add your own intellectual property statement to your modifications of
+DBRX and, except as set forth in this Section, may provide additional or
+different terms and conditions for use, reproduction, or distribution of DBRX
+or DBRX Derivatives as a whole, provided your use, reproduction, modification,
+distribution, performance, and display of DBRX or DBRX Derivatives otherwise
+complies with the terms and conditions of this Agreement. Any additional or
+different terms and conditions you impose must not conflict with the terms of
+this Agreement and in the event of a conflict, the terms and conditions of this
+Agreement shall govern over any such additional or different terms and conditions.
+
+2.3 Use Restrictions
+
+You will not use DBRX or DBRX Derivatives or any Output to improve any other
+large language model (excluding DBRX or DBRX Derivatives).
+
+You will not use DBRX or DBRX Derivatives:
+
+	1. for any restricted use set forth in the Databricks Open Model Acceptable
+    Use Policy identified at
+    https://www.databricks.com/legal/acceptable-use-policy-open-model
+    ("Acceptable Use Policy"), which is hereby incorporated by reference into
+    this Agreement; or
+
+	2. in violation of applicable laws and regulations.
+
+To the maximum extent permitted by law, Databricks reserves the right to
+restrict (remotely or otherwise) usage of DBRX or DBRX Derivatives that
+Databricks reasonably believes are in violation of this Agreement.
+
+
+Section 3: Additional Commercial Terms
+
+If, on the DBRX version release date, the monthly active users of the products
+or services made available by or for Licensee, or Licensee’s affiliates, is
+greater than 700 million monthly active users in the preceding calendar month,
+you must request a license from Databricks, which we may grant to you in our
+sole discretion, and you are not authorized to exercise any of the rights under
+this Agreement unless or until Databricks otherwise expressly grants you such
+rights.
+
+If you receive DBRX or DBRX Derivatives from a direct or indirect licensee as
+part of an integrated end user product, then this section (Section 3) of the
+Agreement will not apply to you.
+
+
+Section 4: Additional Provisions
+
+4.1 Updates
+
+Databricks may update DBRX from time to time, and you must make reasonable
+efforts to use the latest version of DBRX.
+
+4.2 Intellectual Property
+
+a. No trademark licenses are granted under this Agreement, and in connection
+with DBRX or DBRX Derivatives, neither Databricks nor Licensee may use any name
+or mark owned by or associated with the other or any of its affiliates, except
+as required for reasonable and customary use in describing and redistributing
+DBRX or DBRX Derivatives.
+
+b. Subject to Databricks’ ownership of DBRX and DRBX Derivatives made by or for
+Databricks, with respect to any DBRX Derivatives that are made by you, as
+between you and Databricks, you are and will be the owner of such DBRX
+Derivatives.
+
+c. Databricks claims no ownership rights in Outputs. You are responsible for
+Outputs and their subsequent uses.
+
+d. If you institute litigation or other proceedings against Databricks or any
+entity (including a cross-claim or counterclaim in a lawsuit) alleging that
+DBRX or Outputs or results therefrom, or any portion of any of the foregoing,
+constitutes infringement of intellectual property or other rights owned or
+licensable by you, then any licenses granted to you under this Agreement shall
+terminate as of the date such litigation or claim is filed or instituted. You
+will indemnify and hold harmless Databricks from and against any claim by any
+third party arising out of or related to your use or distribution of DBRX or
+DBRX Derivatives.
+
+4.3 DISCLAIMER OF WARRANTY
+
+UNLESS REQUIRED BY APPLICABLE LAW, DBRX AND ANY OUTPUT AND RESULTS THEREFROM
+ARE PROVIDED ON AN “AS IS” BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER
+EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. YOU
+ARE SOLELY RESPONSIBLE FOR DETERMINING THE APPROPRIATENESS OF USING OR
+REDISTRIBUTING DBRX OR DBRX DERIVATIVES AND ANY OUTPUT AND ASSUME ANY RISKS
+ASSOCIATED WITH YOUR USE OF DBRX OR DBRX DERIVATIVES AND ANY OUTPUT AND RESULTS.
+
+4.4 LIMITATION OF LIABILITY
+
+IN NO EVENT WILL DATABRICKS OR ITS AFFILIATES BE LIABLE UNDER ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, TORT, NEGLIGENCE, PRODUCTS LIABILITY, OR
+OTHERWISE, ARISING OUT OF THIS AGREEMENT, FOR ANY LOST PROFITS OR ANY INDIRECT,
+SPECIAL, CONSEQUENTIAL, INCIDENTAL, EXEMPLARY OR PUNITIVE DAMAGES, EVEN IF
+DATABRICKS OR ITS AFFILIATES HAVE BEEN ADVISED OF THE POSSIBILITY OF ANY OF THE
+FOREGOING.
+
+4.5 Term and Termination
+
+The term of this Agreement will commence upon your acceptance of this Agreement
+or access to DBRX or DBRX Derivatives and will continue in full force and
+effect until terminated in accordance with the terms and conditions herein.
+Databricks may terminate this Agreement if you are in breach of any term or
+condition of this Agreement. Upon termination of this Agreement, you shall
+delete and cease use of DBRX or any DBRX Derivatives. Sections 1, 4.2(d), 4.3,
+4.4, and 4.6 shall survive the termination of this Agreement.
+
+4.6 Governing Law and Jurisdiction
+
+This Agreement will be governed and construed under the laws of the State of
+California without regard to choice of law principles, and the UN Convention
+on Contracts for the International Sale of Goods does not apply to this
+Agreement. The courts of California shall have exclusive jurisdiction of any
+dispute arising out of this Agreement.
