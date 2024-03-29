@@ -58,6 +58,10 @@ After merging, instructions to build and run DBRX TensorRT engines will be found
 
 Please see the [vLLM docs](https://docs.vllm.ai/en/latest/) for instructions on how to run DBRX with the vLLM engine.
 
+### MLX
+
+If you have an Apple laptop with a sufficiently powerful M-series chip, quantized version of DBRX can be run with MLX. See instructions for running DBRX on MLX [here](https://huggingface.co/mlx-community/dbrx-instruct-4bit).
+
 ## Finetune
 
 To finetune DBRX with our open source library [LLM Foundry](https://www.github.com/mosaicml/llm-foundry), please see the instructions in our training script (found [here](https://github.com/mosaicml/llm-foundry/tree/main/scripts/train)). We have finetuning support for both:
@@ -77,6 +81,10 @@ The model cards can be found at:
 DBRX is available on the Databricks platform through:
 * [Mosaic AI Model Serving](https://docs.databricks.com/machine-learning/foundation-models/supported-models.html#dbrx-instruct)
 * [Mosaic AI Playground](https://docs.databricks.com/en/large-language-models/ai-playground.html)
+
+Other providers have recently added support for DBRX:
+* [You.com](https://you.com/)
+* [Perplexity Labs](https://labs.perplexity.ai/)
 
 The same tools used to train high quality MoE models such as DBRX are available for Databricks customers. Please reach out to us at https://www.databricks.com/company/contact if you are interested in pre-training, finetuning, or deploying your own DBRX models!
 
