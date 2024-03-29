@@ -64,7 +64,7 @@ To finetune DBRX with our open source library [LLM Foundry](https://www.github.c
 * Full parameter finetuning, see the yaml config [dbrx-full-ft.yaml](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/dbrx-full-ft.yaml)
 * LoRA finetuning, see the yaml config [dbrx-lora-ft.yaml](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/dbrx-lora-ft.yaml)
 
-Note: LORA support currently cannot finetune the experts, since the experts are fused. Stay tuned for more.
+Note: LoRA support currently cannot finetune the experts, since the experts are fused. Stay tuned for more.
 
 ## Model card
 
