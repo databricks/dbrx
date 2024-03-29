@@ -62,7 +62,7 @@ Please see the [vLLM docs](https://docs.vllm.ai/en/latest/) for instructions on 
 
 To finetune DBRX with our open source library [LLM Foundry](https://www.github.com/mosaicml/llm-foundry), please see the instructions in our training script (found [here](https://github.com/mosaicml/llm-foundry/tree/main/scripts/train)). We have finetuning support for both:
 * Full parameter finetuning, see the yaml config [dbrx-full-ft.yaml](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/dbrx-full-ft.yaml)
-* LORA finetuning, see the yaml config [dbrx-lora-ft.yaml](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/dbrx-lora-ft.yaml)
+* LoRA finetuning, see the yaml config [dbrx-lora-ft.yaml](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/dbrx-lora-ft.yaml)
 
 Note: LORA support currently cannot finetune the experts, since the experts are fused. Stay tuned for more.
 
