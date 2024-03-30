@@ -3,12 +3,12 @@
 DBRX is a large language model trained by Databricks, and made available under an open license. This repository contains the minimal code and examples to run inference, as well as a collection of resources and links for using DBRX.
 
 * [Founder's Blog](https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms), [DBRX Technical Blog](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm)
-* HuggingFace: https://huggingface.co/collections/databricks/
+* Hugging Face: https://huggingface.co/collections/databricks/
 * LLM Foundry: https://github.com/mosaicml/llm-foundry
 
 A reference model code can be found in this repository at [modeling_dbrx.py](model/modeling_dbrx.py). 
 
-**Note:** this model code is supplied for references purposes only, please see the [HuggingFace](https://huggingface.co/collections/databricks/) repository for the official supported version.
+**Note:** this model code is supplied for references purposes only, please see the [Hugging Face](https://huggingface.co/collections/databricks/) repository for the official supported version.
 
 ## Model details
 
@@ -28,7 +28,7 @@ For the instruct model, we used the ChatML format. Please see the [DBRX Instruct
 
 ## Quick start
 
-To download the weights and tokenizer, please first visit the DBRX HuggingFace page and accept the license. Note: access to the Base model requires manual approval. 
+To download the weights and tokenizer, please first visit the DBRX Hugging Face page and accept the license. Note: access to the Base model requires manual approval. 
 
 We recommend having at least 320GB of memory to run the model.
 
