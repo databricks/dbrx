@@ -66,6 +66,15 @@ print(f'\nGenerate kwargs:\n{generate_kwargs}')
 
 # Generate function with correct context managers
 def _generate(encoded_inp: Dict[str, torch.Tensor]):
+    """
+    Generates responses using the loaded model and tokenizer, with the specified generation parameters.
+
+    Args:
+        encoded_inp: A dictionary containing the encoded input tensor.
+
+    Returns:
+        The generated output from the model.
+    """
     with torch.inference_mode():
         with autocast_context:
             return model.generate(
