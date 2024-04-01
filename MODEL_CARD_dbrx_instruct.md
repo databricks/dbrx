@@ -32,7 +32,7 @@ We used curriculum learning for pretraining, changing the data mix during traini
 
 ## Usage
 These are several general ways to use the DBRX models:
-* DBRX Base and DBRX Instruct are available for download on HuggingFace (see our Quickstart guide below). This is the HF repository for DBRX Instruct; DBRX Base can be found [here](https://huggingface.co/databricks/dbrx-base).
+* DBRX Base and DBRX Instruct are available for download on Hugging Face (see our Quickstart guide below). This is the HF repository for DBRX Instruct; DBRX Base can be found [here](https://huggingface.co/databricks/dbrx-base).
 * The DBRX model repository can be found on GitHub [here](https://github.com/databricks/dbrx).
 * DBRX Base and DBRX Instruct are available with [Databricks Foundation Model API](https://docs.databricks.com/en/machine-learning/foundation-models/index.html) via both *Pay-per-token* and *Provisioned Throughput* endpoints. These are enterprise-ready deployments.
 * For more information on how to fine-tune using LLM-Foundry, please take a look at our LLM pretraining and fine-tuning [documentation](https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/README.md).
@@ -48,7 +48,7 @@ Getting started with DBRX models is easy with the `transformers` library. The mo
 pip install transformers tiktoken
 ```
 
-If you'd like to speed up download time, you can use the `hf_transfer` package as described by Huggingface [here](https://huggingface.co/docs/huggingface_hub/en/guides/download#faster-downloads).
+If you'd like to speed up download time, you can use the `hf_transfer` package as described by Hugging Face [here](https://huggingface.co/docs/huggingface_hub/en/guides/download#faster-downloads).
 ```bash
 pip install hf_transfer
 export HF_HUB_ENABLE_HF_TRANSFER=1
