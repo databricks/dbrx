@@ -1,0 +1,26 @@
+---
+version: "3.8"
+services:
+
+  dbrx:
+    build:
+      context: .
+    restart: on-failure
+    env_file:
+      - .env
+    environment:
+      - HF_HOME=/huggingface
+    command: python generate.py
+    volumes:
+      - huggingface:/huggingface
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['all']
+              capabilities: [gpu]
+
+volumes:
+  - huggingface
+
