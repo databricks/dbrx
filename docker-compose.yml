@@ -22,5 +22,5 @@ services:
               capabilities: [gpu]
 
 volumes:
-  - huggingface
+  huggingface:
 
