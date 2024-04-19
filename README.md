@@ -62,6 +62,17 @@ Please see the [vLLM docs](https://docs.vllm.ai/en/latest/) for instructions on 
 
 If you have an Apple laptop with a sufficiently powerful M-series chip, quantized version of DBRX can be run with MLX. See instructions for running DBRX on MLX [here](https://huggingface.co/mlx-community/dbrx-instruct-4bit).
 
+
+### LLama.cpp
+
+If you have an Apple M-series chip laptop with atleast 64GB RAM, you can run a quantized version of DBRX using [llama.cpp](https://github.com/ggerganov/llama.cpp).
+1. Compile llama.cpp 
+1. Download a quantized ggml version of dbrx-instruct such as [dranger003/dbrx-instruct-iMat.GGUF](https://huggingface.co/dranger003/dbrx-instruct-iMat.GGUF)
+1. From llama.cpp folder, run:
+```
+./main -ngl 41 -m ./models/ggml-dbrx-instruct-16x12b-iq1_s.gguf -n 256 --repeat_penalty 1.0 --color -i -r "User:" -f prompts/chat-with-bob.txt
+```
+
 ## Finetune
 
 To finetune DBRX with our open source library [LLM Foundry](https://www.github.com/mosaicml/llm-foundry), please see the instructions in our training script (found [here](https://github.com/mosaicml/llm-foundry/tree/main/scripts/train)). We have finetuning support for both:
@@ -85,6 +96,7 @@ DBRX is available on the Databricks platform through:
 Other providers have recently added support for DBRX:
 * [You.com](https://you.com/)
 * [Perplexity Labs](https://labs.perplexity.ai/)
+* [LlamaIndex](https://docs.llamaindex.ai/en/stable/api_reference/llms/databricks/) ([starter example gist](https://gist.github.com/dennyglee/3a4fd9042c283549b727e081397842da))
 
 The same tools used to train high quality MoE models such as DBRX are available for Databricks customers. Please reach out to us at https://www.databricks.com/company/contact if you are interested in pre-training, finetuning, or deploying your own DBRX models!
 
