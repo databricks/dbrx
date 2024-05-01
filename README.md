@@ -65,7 +65,7 @@ If you have an Apple laptop with a sufficiently powerful M-series chip, quantize
 
 ### LLama.cpp
 
-If you have an Apple M-series chip laptop with atleast 64GB RAM, you can run a quantized version of DBRX using [llama.cpp](https://github.com/ggerganov/llama.cpp).
+If you have an Apple M-series chip laptop with at least 64GB RAM, you can run a quantized version of DBRX using [llama.cpp](https://github.com/ggerganov/llama.cpp).
 1. Compile llama.cpp 
 1. Download a quantized ggml version of dbrx-instruct such as [dranger003/dbrx-instruct-iMat.GGUF](https://huggingface.co/dranger003/dbrx-instruct-iMat.GGUF)
 1. From llama.cpp folder, run:
